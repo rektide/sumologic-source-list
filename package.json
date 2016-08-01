@@ -1,7 +1,7 @@
 {
   "name": "sumologic-collector-list",
   "version": "1.0.0",
-  "description": "",
+  "description": "Search your SumoLogic sources for those having any provided arguments in their name.",
   "main": "sumologic-collector-list.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,7 @@
     "url": "git+https://github.com/rektide/sumologic-collector-list.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "rektide de la faye",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/rektide/sumologic-collector-list/issues"
