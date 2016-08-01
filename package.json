@@ -1,20 +1,26 @@
 {
-	"name": "sumologic-collector-list",
-	"version": "1.0.0",
-	"description": "",
-	"main": "index.js",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/rektide/sumologic-collector-list.git"
-	},
-	"keywords": [],
-	"author": "",
-	"license": "ISC",
-	"bugs": {
-		"url": "https://github.com/rektide/sumologic-collector-list/issues"
-	},
-	"homepage": "https://github.com/rektide/sumologic-collector-list#readme"
+  "name": "sumologic-collector-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sumologic-collector-list.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sumologic-collector-list": "./sumologic-collector-list.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rektide/sumologic-collector-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rektide/sumologic-collector-list/issues"
+  },
+  "homepage": "https://github.com/rektide/sumologic-collector-list#readme",
+  "dependencies": {
+    "node-fetch": "^1.5.3"
+  }
 }
