@@ -1,25 +1,25 @@
 {
-  "name": "sumologic-collector-list",
+  "name": "sumologic-source-list",
   "version": "1.0.0",
   "description": "Search your SumoLogic sources for those having any provided arguments in their name.",
-  "main": "sumologic-collector-list.js",
+  "main": "sumologic-source-list.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "sumologic-collector-list": "./sumologic-collector-list.js"
+    "sumologic-source-list": "./sumologic-source-list.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rektide/sumologic-collector-list.git"
+    "url": "git+https://github.com/rektide/sumologic-source-list.git"
   },
   "keywords": [],
   "author": "rektide de la faye",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rektide/sumologic-collector-list/issues"
+    "url": "https://github.com/rektide/sumologic-source-list/issues"
   },
-  "homepage": "https://github.com/rektide/sumologic-collector-list#readme",
+  "homepage": "https://github.com/rektide/sumologic-source-list#readme",
   "dependencies": {
     "node-fetch": "^1.5.3"
   }
